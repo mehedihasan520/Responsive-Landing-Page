@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    height: 4376px;
+    font-family:Arial, Helvetica, sans-serif; 
+    background-color: #F5F7FA; 
+}
+
+
+/*Nav Strat*/
+.nav-container {
+    width: 100%;
+    height: 84px;
+    padding-top: 20px;
+}
+
+ .nav-area {
+    width: 1140px;
+    height: 100%px;
+    margin: 0 auto;
+    padding: 0px 10px 10px 0px;
+}
+
+.top-nav-container  {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    width: 111.49px;
+    height: 20.66px;
+}
+
+.nav-item-container {
+    display: flex;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: 400px;
+    width: 588px;
+    height: 24px;
+    left: 425.5px;
+}
+
+.nav-item {
+    margin-left: 20px;
+} 
+
+.nav-item a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #74777a;
+}
+
+.nav-right-section button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.login {
+    margin-right: 10px;
+    background-color: #F5F7FA;
+    color: #74777a;
+}
+.signup {
+    background-color: #28cb8b;
+    color: #FFFFFF;
+}
+
+/*Nav end */
+
+/*Home Strat*/
+
+.home-container {
+    display: flex;
+    width: 1440px;
+    height: 640px;
+}
+
+.home-area {
+    width: 1440px;
+    height: 100%px;
+    margin: 0 auto;
+}
+
+.hero-section {
+    display: flex;
+    width: 1,440px;
+    height: 599px;
+    padding: 96px 144px 96px 144px;
+    gap: 104px;
+}
+
+.page-title-area {
+    width: 657px;
+    height: 276px;
+    margin-top: 30px;
+}
+
+.page-title-area p {
+    color: #aaadb1;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 46px;
+    font-weight: bold;
+    letter-spacing: .25rem;
+    color: #74777a;
+}
+
+.title-period {
+    font-size: 46px;
+    font-weight: bold;
+    letter-spacing: .25rem;
+    color: #4CAF4F;
+}
+
+.title-image {
+    width: 391px;
+    height: 407px;
+}
+
+.dots {
+    width: 46px;
+    height: 10px;
+    gap: 8px;
+    margin-top: 557px;
+}
+
+.register {
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 4px;
+    background: #4CAF4F;
+    color: #FFFFFF;
+    margin-top: 30px;
+    border: none;
+}
+
+/*Home end */
